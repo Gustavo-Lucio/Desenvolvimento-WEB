@@ -1,2 +1,2 @@
 # Faculdade
-Desenvolvimento de Sistemas
+Sistemas de Informação
