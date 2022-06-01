@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <label for="first_name">Primeiro Nome:</label>
+    <input type="text" name="first_name" id="first_name" autofocus maxlength="20" >
+
+    <label for="last_name">Sobrenome:</label>
+    <input type="text" name="last_name" id="last_name" autofocus maxlength="20" >
+    
+    <br>
+    <br>
+
+    <label for="senha">Senha: </label>
+    <input type="password" name="senha" id="senha" maxlength="8"> 
+
+    <label for="c_senha"> Confirmar Senha: </label>
+    <input type="password" name="c_senha" id="c_senha" maxlength="8"> 
+
+    <br>
+    <br>
+    <br>
+
+    <!-- <label for="anos_experiencia">Anos de Experiência</label>
+    <input type="number" name="anos_experiencia" id="anos_experiencia" min="0" max="10" step="2"> -->
+
+    <!-- <label for="volume"><b>Volume:</b> </label>
+    <input type="range" name="volume" id="volume" min="0" max="100" oninput="ex_02()">
+    <p id="info">50</p> -->
+    
+    <!-- <p>Disponibilidade:</p>
+    <label for="segunda">Segunda-Feira</label>
+    <input type="checkbox" name="segunda" id="segunda">
+
+    <br>
+    <label for="terca">Terça-Feira</label>
+    <input type="checkbox" name="terca" id="terca"> -->
+
+    <!-- <p>Gênero: </p>
+    <label for="feminino">Feminino</label>
+    <input type="radio" name="genero" id="feminino" value="1">
+
+    <label for="masculino">Masculino</label>
+    <input type="radio" name="genero" id="masculino" value="2">
+
+
+    <p>Estado Civil: </p>
+    <label for="solteiro">Solteiro</label>
+    <input type="radio" name="estado_civil" id="solteiro" value="1">
+    
+    <label for="casado">Casado</label>
+    <input type="radio" name="estado_civil" id="casado" value="2"> -->
+
+    <!-- <label for="estado">Estado de Origem:</label>
+    <select name="estado" id="estado">
+        <option disabled selected>...</option>
+        <option value="pr">Paraná</option>
+        <option value="sc">Santa Catarina</option>
+        <option value="rs">Rio Grande do Sul</option>
+    </select> -->
+    <label for="comentarios"><b>Comentários</b></label>
+    <br>
+    <textarea name="comentarios" id="comentarios" cols="50" rows="10" onkeyup="ex_01()"></textarea>
+    <p id="info">Restam 150 caracteres</p>
+
+    <button onclick="enviar()">Enviar</button>
+    <p id="result"></p>
+
+</body>
+
+</html>
